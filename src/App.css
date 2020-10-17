@@ -1,0 +1,56 @@
+
+/* Declare some variables */
+/* Define Styles */
+.current-page {
+  font-size: 1.5rem;
+  vertical-align: middle; }
+
+.product-card-container {
+  height: 100px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden; }
+
+.product-name {
+  font-size: 0.9rem; }
+
+.product-region {
+  font-size: 0.7rem; }
+
+.current-page,
+.product-name,
+.product-region {
+  line-height: 1; }
+
+/* Override some Bootstrap pagination styles */
+ul.pagination {
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); }
+  ul.pagination li.page-item.active a.page-link {
+    color: #445565 !important;
+    background-color: #e3e7eb !important;
+    border-color: #ced4da !important; }
+  ul.pagination a.page-link {
+    padding: 1.2rem 2.3rem;
+    min-width: 3.5rem;
+    text-align: center;
+    box-shadow: none !important;
+    border-color: #ced4da !important;
+    color: #6b88a4;
+    font-weight: 900;
+    font-size: 1rem; }
+    ul.pagination a.page-link:hover {
+      background-color: #f4f4f4; }
+
+      .activeClass{
+        color:#000000 !important;
+      }
+      .inactiveClass{
+        color:#800000 !important;
+      }
+
+      .text-md-center{
+        text-align: center !important;
+        text-decoration: underline !important;
+      }
