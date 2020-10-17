@@ -11,7 +11,7 @@ class App extends Component {
 
   componentDidMount() {
 
-    fetch('http://demo3587227.mockable.io/productList').then(response => {
+    fetch('https://demo3587227.mockable.io/productList').then(response => {
       return response.json();
     }).then(data => {
       // Work with JSON data here
