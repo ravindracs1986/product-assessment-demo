@@ -9,6 +9,7 @@ import Footer from './components/footer';
 class App extends Component {
   state = { allProducts: [], currentProducts: [], currentPage: null, totalPages: null }
 
+  
   componentDidMount() {
 
     fetch('https://demo6976647.mockable.io/productList').then(response => {
